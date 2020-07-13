@@ -14,6 +14,7 @@
 		EB530F8924BC520B00769186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB530F8824BC520B00769186 /* Assets.xcassets */; };
 		EB530F8C24BC520B00769186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB530F8A24BC520B00769186 /* LaunchScreen.storyboard */; };
 		EB530F8F24BC520B00769186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB530F8E24BC520B00769186 /* main.m */; };
+		EB61F26524BC58C400E4A26B /* ViewC02.m in Sources */ = {isa = PBXBuildFile; fileRef = EB61F26424BC58C400E4A26B /* ViewC02.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		EB530F8B24BC520B00769186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB530F8D24BC520B00769186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB530F8E24BC520B00769186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB61F26324BC58C400E4A26B /* ViewC02.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewC02.h; sourceTree = "<group>"; };
+		EB61F26424BC58C400E4A26B /* ViewC02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewC02.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				EB530F8024BC520A00769186 /* SceneDelegate.m */,
 				EB530F8224BC520A00769186 /* ViewController.h */,
 				EB530F8324BC520A00769186 /* ViewController.m */,
+				EB61F26324BC58C400E4A26B /* ViewC02.h */,
+				EB61F26424BC58C400E4A26B /* ViewC02.m */,
 				EB530F8524BC520A00769186 /* Main.storyboard */,
 				EB530F8824BC520B00769186 /* Assets.xcassets */,
 				EB530F8A24BC520B00769186 /* LaunchScreen.storyboard */,
@@ -147,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB530F8424BC520A00769186 /* ViewController.m in Sources */,
+				EB61F26524BC58C400E4A26B /* ViewC02.m in Sources */,
 				EB530F7E24BC520A00769186 /* AppDelegate.m in Sources */,
 				EB530F8F24BC520B00769186 /* main.m in Sources */,
 				EB530F8124BC520A00769186 /* SceneDelegate.m in Sources */,
