@@ -23,6 +23,8 @@
     //P1:新的视图控制器对象
     //P2:是否使用动画切换效果
     //P3:切换结束后功能调用,不需要就传nil值即可
+    //呈现全屏
+    vc.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:vc animated:YES completion:nil];
 }
 

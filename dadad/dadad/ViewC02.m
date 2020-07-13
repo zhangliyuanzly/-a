@@ -27,6 +27,11 @@
     //P2:结束后是否调用功能block快操作
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+
+-(void)viewDidDisappear:(BOOL)animated{
+    NSLog(@"视图已经消失！");
+}
+
 /*
 #pragma mark - Navigation
 
